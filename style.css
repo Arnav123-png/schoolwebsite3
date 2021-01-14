@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: dodgerblue;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%
+}
+.link {
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display:inline;
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#PG{
+    width: 100%;
+    height: 500px;
+}
+.school{
+    width: 200px;
+    height: 200px;
+}
+.travel{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+.travel img{
+    width: 100%;
+    height: 300px;
+}
+.travel hr{
+    width: 100%;
+}
+.travel h5 , travel p{
+    margin-left: 20xp;
+}
+#school{
+    width: 225px;
+    height: 225px;
+}
